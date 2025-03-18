@@ -43,8 +43,8 @@ header .menu {
 }
 header nav.menuClicked {
   display: block;
-  width: 100%; /* Занимает всю ширину */
-  order: 1; /* Перемещаем навигацию вниз (после всех элементов) */
+  width: 100%;
+  order: 1;
   margin-right: 0;
   padding: 15px 0;
 }
