@@ -148,17 +148,9 @@ footer ul li {
   }
 }
 
-main iframe {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 35px;
-  border-radius: 35px;
-  border: none;
-  min-height: 400px;
-  width: 80%;
-}
 main h2 {
   text-align: center;
   font-size: 40px;
   font-weight: normal;
-}/*# sourceMappingURL=routes.css.map */
+  width: 100%;
+}/*# sourceMappingURL=tickets.css.map */

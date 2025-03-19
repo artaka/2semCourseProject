@@ -148,17 +148,48 @@ footer ul li {
   }
 }
 
-main iframe {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 35px;
-  border-radius: 35px;
-  border: none;
-  min-height: 400px;
-  width: 80%;
-}
 main h2 {
   text-align: center;
   font-size: 40px;
   font-weight: normal;
-}/*# sourceMappingURL=routes.css.map */
+  width: 100%;
+}
+main #blox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 450px) {
+  main #blox {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+main #blox div {
+  margin-bottom: 40px;
+  width: 400px;
+  background-color: #f5f5f5;
+  flex-basis: 40%;
+  text-align: center;
+  border-radius: 35px;
+  box-shadow: 5px 6px 43px 4px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 450px) {
+  main #blox div {
+    width: 80%;
+  }
+}
+main #blox div img {
+  width: 70%;
+  margin-top: 32px;
+}
+main #blox div p {
+  font-size: 32px;
+}
+main #blox div span {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=team.css.map */
