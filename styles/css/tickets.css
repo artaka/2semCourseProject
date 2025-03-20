@@ -292,7 +292,8 @@ main .modal input:focus-visible {
   outline: 2px #007AFF solid !important;
 }
 main .modal button {
-  width: 198px;
+  width: 60%;
+  max-width: 198px;
   height: 47px;
   font-size: 20px;
   background-color: #007AFF;
@@ -308,4 +309,5 @@ main .modal .close-button {
 }
 main .modal #formPrice {
   color: #007AFF;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=tickets.css.map */
